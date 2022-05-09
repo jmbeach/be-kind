@@ -32,7 +32,7 @@ function App() {
   const color5 = hsl(adjustColor(hue5, frame), color1SL[0], color1SL[1]);
 
   return (
-    <div>
+    <div className='bg-black'>
       <BeKind size={10} color1={color1} color2={color2} color3={color3} color4={color4} color5={color5}></BeKind>
     </div>
   );
